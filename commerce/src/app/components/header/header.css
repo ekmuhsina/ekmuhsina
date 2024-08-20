@@ -1,0 +1,12 @@
+.nav-text{
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    font-weight: 500;
+    fill: white;
+}
+.nav-text:hover, .nav-text.active{
+    color: #e4a32b;
+    font-weight: 600;
+    fill: #e4a32b;
+}

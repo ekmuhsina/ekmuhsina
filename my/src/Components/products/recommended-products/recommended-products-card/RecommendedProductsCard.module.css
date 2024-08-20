@@ -1,0 +1,64 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    font-family: Roboto, Arial;
+    width: 230px;
+    padding: 1%;
+    box-sizing: border-box;
+    background-color: white;
+    text-align: center;
+  }
+  .prodImg{
+      height: 250px;
+      object-fit: contain;
+      margin: 5%;
+      width: auto;
+  }
+  .title{
+      font-size: 16px;
+      margin-top: 3%;
+      height: 20px;
+      font-weight: 400;
+      overflow: hidden;
+      text-decoration: none;
+  }
+  .ratingContainer{
+      display: flex;
+      justify-content: center;
+      align-items: baseline;
+  }
+  .ratingImgContainer{
+      margin-right: 3%;
+  }
+  .ratingCount{
+      margin-left: 3%;
+      font-size: 14px;
+      color: #1c77ff;
+      font-weight: 500;
+  }
+  .prodOffer{
+      color: purple;
+      font-size: 15px;
+      font-weight: 500;
+      margin-top: 3%;
+  }
+  .priceConatiner{
+      display: flex;
+      margin-top: 3%;
+      justify-content: center;
+      align-items: flex-end;
+  }
+  .priceConatiner > sup{
+      font-size: 14px;
+      align-self: flex-start;
+      margin-top: 6%;
+  }
+  .prodPrice{
+      font-size: 26px;
+      font-weight: 400;
+      margin-right: 4%;
+  }
+  .priceDetl{
+      align-self: flex-end;
+      margin-bottom: 3%;
+  }
